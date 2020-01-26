@@ -80,7 +80,7 @@ module Fastlane
           return nil
         end
 
-        return latest_build['version']
+        return latest_build
       end
 
       def self.available_options
